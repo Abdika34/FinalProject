@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | 5friends Ethiopian Cultural Dress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #8b4513;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .contact-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .contact-container h2 {
+            text-align: center;
+            color: #8b4513;
+        }
+        .contact-form label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #8b4513;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #a0522d;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #8b4513;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <section class="contact-container">
+        <h2>Get in Touch</h2>
+        <form class="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: support@5friendsdress.com</p>
+            <p>Phone: +251 934076028</p>
+            <p>Address: Addis Ababa, Ethiopia</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 5friends Ethiopian Cultural Dress. All Rights Reserved.</p>
+    </footer>
+    <script>
+        document.querySelector(".contact-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Thank you for reaching out! We will get back to you soon.");
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+        });
+    </script>
+</body>
+</html>
