@@ -1,5 +1,5 @@
-# build-full-stack-book-store-mern-app
-![full-stack-book-store-mern-project](/frontend/src/assets/github-cover.png)
+# this is My Final Project that is developed MERN Stack it is Web App that used for sold Ethiopian Cultural Dress it's Admin Panel and User Panel
+
 
 ## How to run this project:
 
