@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-    return "http://localhost:5007"
+    return "https://finalproject-p6h0.onrender.com"
 }
 
 export default getBaseUrl;
