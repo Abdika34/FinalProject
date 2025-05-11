@@ -1,7 +1,7 @@
-# this is My Final Project that is developed by MERN Stack for my firs Degree From Addis Ababa University, it is Web App that used for sold Ethiopian Cultural Dress it's Admin Panel and User Panel
+# this is our Final Project that is developed by MERN Stack for our firs Degree Graduetion From Addis Ababa University, it is Web App that used for sold Ethiopian Cultural Dress it's Admin Panel and User Panel
+## We make fully free this project
 
-
-## How to run this project:
+## to run this project:
 
 ### For Frontend 
 Follow the below steps to run the project: 
